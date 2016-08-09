@@ -22,12 +22,21 @@ client.post("https://takara.atlassian.net/rest/auth/1/session", loginArgs, funct
                 "Content-Type": "application/json"
             },
             data: { 
-           		// jql: "key = IGXTW" 
-           		jql: "project = TEST"
+           		jql: "project = IGXTW" 
+           		// jql: "project = test"
            		// jql: "key = IGXRG" 
            		// jql: "*" 
             }
         };
+
+        // client.get("https://takara.atlassian.net/rest/api/2//mypermissions?projectKey=IGXGOA2&projectId=10500&issueKey=IGXGOA2-&issueId=15115",function(data){
+        //     console.log(data);
+        // });
+        // var url = "https://takara.atlassian.net/rest/api/2//mypermissions?projectKey=IGXGOA2&projectId=10500&issueKey=IGXGOA2-27&issueId=15115";
+        // // var url = "https://takara.atlassian.net/rest/api/2//permissions";
+        // client.get(url,function(data){
+        //     console.log(data);
+        // });
 
         client.post("https://takara.atlassian.net/rest/api/2/search", searchArgs, function (searchResult, response) {
         	// response.on('data',function(data){

@@ -1,0 +1,32 @@
+{
+  "name": "jiragetbug",
+  "version": "1.0.0",
+  "description": "\"# JIRA\"",
+  "main": "bundle.js",
+  "dependencies": {
+    "jira-api": "^0.2.2",
+    "node-rest-client": "^2.0.1",
+    "sql": "^0.70.1",
+    "jira": "^0.9.2"
+  },
+  "devDependencies": {
+    "sql": "^0.70.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rannar/JIRA.git"
+  },
+  "keywords": [
+    "jira",
+    "getbug"
+  ],
+  "author": "rannaryang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rannar/JIRA/issues"
+  },
+  "homepage": "https://github.com/rannar/JIRA#readme"
+}
